@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Sikli</title>
+  </head>
+  <body>
+    <!-- <main>
+      <button id="runBtn">Run script</button>
+      <pre id="output"></pre>
+    </main>
+    <script>
+      document.getElementById("runBtn").addEventListener("click", function () {
+        const k = Number(prompt("Enter k:"));
+        const n = Number(prompt("Enter n:"));
+        const output = document.getElementById("output");
+        let result = "";
+        for (let i = 1; i <= n; i++) {
+          result += String(i * k) + "\n";
+        }
+        output.textContent = result.trim();
+      });
+    </script> -->
+
+    <!-- task 2 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", function () {
+        const a = Number(prompt("Enter a:"));
+        const b = Number(prompt("Enter b:"));
+        const natija = document.getElementById("natija");
+        let array = [];
+        if (a >= b) {
+          natija.textContent = "A B dan kichkina bulsin";
+        }
+        for (let i = a; i < b + 1; i++) {
+          array.push(i);
+        }
+        natija.textContent = array.join(", ");
+      });
+    </script> -->
+
+    <!-- task 3 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", function () {
+        const a = Number(prompt("Enter a:"));
+        const b = Number(prompt("Enter b:"));
+        const natija = document.getElementById("natija");
+        let array = [];
+        if (a >= b) {
+          natija.textContent = "A B dan kichkina bulsin";
+        }
+        for (let i = a + 1; i < b; i++) {
+          array.push(i);
+        }
+        let reversearray = array.reverse();
+        natija.textContent = reversearray.join(", ");
+      });
+    </script> -->
+
+    <!-- task 4 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", function () {
+        const a = Number(prompt("Konfet narxi bir kg:"));
+        const natija = document.getElementById("natija");
+        let array = [];
+        for (let i = 1; i < 11; i++) {
+          array.push(i * a);
+        }
+        natija.textContent = array.join(", ");
+      });
+    </script> -->
+
+    <!-- task 5 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", function () {
+        const a = Number(prompt("Konfet narxi bir kg:"));
+        const natija = document.getElementById("natija");
+        let array = [];
+        for (let i = 0.1; i < 1.1; i += 0.1) {
+          array.push(Math.round(i * a));
+        }
+        natija.textContent = array.join(", ");
+      });
+    </script> -->
+
+    <!-- task 6 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", function () {
+        const a = Number(prompt("Konfet narxi bir kg:"));
+        const natija = document.getElementById("natija");
+        let array = [];
+        for (let i = 1.2; i < 2.2; i += 0.2) {
+          array.push(Math.round(i * a));
+        }
+        natija.textContent = array.join(", ");
+      });
+    </script> -->
+
+    <!-- task 7 -->
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const a = Number(prompt("A: "));
+        const b = Number(prompt("B: "));
+        const natija = document.getElementById("natija");
+
+        let total = 0;
+        for (let i = a; i < b; i++) {
+          total += i;
+        }
+
+        natija.textContent = total;
+      });
+    </script> -->
+
+    <!-- task 8 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const a = Number(prompt("A: "));
+        const b = Number(prompt("B: "));
+        const natija = document.getElementById("natija");
+        let total = 1;
+        for (let i = a; i < b; i++) {
+          total *= i;
+        }
+        natija.textContent = total;
+      });
+    </script> -->
+
+    <!-- task 9 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const a = Number(prompt("A: "));
+        const b = Number(prompt("B: "));
+        const natija = document.getElementById("natija");
+        let total = 1;
+        for (let i = a; i < b; i++) {
+          total *= i**2;
+        }
+        natija.textContent = total;
+      });
+    </script> -->
+
+    <!-- task 10 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const n = Number(prompt("N: "));
+        const natija = document.getElementById("natija");
+        let total = 1;
+        for (let i = 2; i < n + 1; i++) {
+          total += 1 / i;
+        }
+        natija.textContent = total;
+      });
+    </script> -->
+
+    <!-- task 11 -->
+
+    <!-- <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const n = Number(prompt("N: "));
+        const natija = document.getElementById("natija");
+        let total = n ** 2;
+        for (let i = 1; i < n + 1; i++) {
+          total += (n + i) ** 2;
+        }
+        natija.textContent = total;
+      });
+    </script> -->
+
+    <!-- task 12 -->
+
+    <button id="boshla">Run</button>
+    <h1 id="natija"></h1>
+
+    <script>
+      document.getElementById("boshla").addEventListener("click", () => {
+        const n = Number(prompt("N: "));
+        const natija = document.getElementById("natija");
+        let total = 1;
+        for (let i = 1.1; i < n + 1; i += 0.1) {
+          total *= i;
+        }
+        natija.textContent = total;
+      });
+    </script>
+  </body>
+</html>
